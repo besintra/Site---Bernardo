@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática - Dossiê Escolar</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../img/Minecraft.jpg">
+    <style>
+        /* Estilos adicionais para as novas seções */
+         .concept-section {
+            margin: 3rem 0;
+            padding: 2rem;
+            background-color: #2c3e50;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            color: #ecf0f1;
+        }
+        
+        .concept-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #34495e;
+            padding-bottom: 0.5rem;
+        }
+        
+        .concept-icon {
+            font-size: 2rem;
+            margin-right: 1rem;
+        }
+        
+        
+        .formula-box {
+            background-color: #34495e;
+            padding: 1.5rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+            border-left: 4px solid #3498db;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            color: #ecf0f1;
+        }
+        
+        .formula {
+            font-family: 'Courier New', monospace;
+            font-size: 1.1rem;
+            background-color: #2c3e50;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin: 0.5rem 0;
+            display: inline-block;
+            color: #ecf0f1;
+            border: 1px solid #4a5f7a;
+        }
+        
+        
+       .math-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .math-card {
+            background-color: #34495e;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+            color: #ecf0f1;
+        }
+        
+        .math-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+        }
+        
+        .math-card h3 {
+            color: #3498db;
+            margin-top: 0;
+            border-bottom: 1px solid #4a5f7a;
+            padding-bottom: 0.5rem;
+        }
+        
+        .math-card ul {
+            padding-left: 1.2rem;
+        }
+        
+        .math-card li {
+            margin-bottom: 0.5rem;
+            color: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="custom-images">Dossiê Escolar</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="curriculo.html">Currículo</a></li>
+                    <li><a href="linguagens.html">Linguagens</a></li>
+                    <li><a href="ciencias-da-natureza.html">Ciências da Natureza</a></li>
+                    <li><a href="matematica.html">Matemática</a></li>
+                    <li><a href="ciencias-humanas.html">Ciências Humanas</a></li>
+                    <li><a href="iot.html">IoT</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="contact-voting.html">Contato & Votação</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <h1>Matemática</h1>
+            <div class="page-intro">
+                <p>Descubra como aplico conceitos matemáticos avançados em projetos de IoT, transformando números em soluções inteligentes e dados em insights valiosos.</p>
+            </div>
+            
+            <!-- NOVA SEÇÃO: CONCEITOS MATEMÁTICOS FUNDAMENTAIS -->
+            <div class="work-grid">
+                <div class="work-card super-fade-in">
+                    <div>
+                <img src ="../img/mini pekka.gif"class="work-icon"></div>
+                    <h2>Conceitos Matemáticos Fundamentais</h2>
+                
+                <p>Abaixo estão alguns dos conceitos matemáticos fundamentais que aplico em meus projetos de análise de dados e IoT.</p>
+                
+                <div class="math-grid">
+                    <!-- FATORIAL -->
+                    <div class="math-card">
+                        <h3>Fatorial</h3>
+                        <p>O fatorial de um número natural n, representado por n!, é o produto de todos os inteiros positivos menores ou iguais a n.</p>
+                        <div class="formula-box">
+                            <p><strong>Fórmula:</strong></p>
+                            <div class="formula">n! = n × (n-1) × (n-2) × ... × 3 × 2 × 1</div>
+                            <p>Por definição: 0! = 1</p>
+                        </div>
+                        <div class="formula-box">
+                            <p><strong>Exemplo:</strong></p>
+                            <p>5! = 5 × 4 × 3 × 2 × 1 = 120</p>
+                        </div>
+                    </div>
+                    
+                    <!-- PERMUTAÇÃO -->
+                    <div class="math-card">
+                        <h3>Permutação</h3>
+                        <p>Número de maneiras de organizar n elementos distintos em sequência.</p>
+                        <div class="formula-box">
+                            <p><strong>Fórmula:</strong></p>
+                            <div class="formula">P(n) = n!</div>
+                        </div>
+                        <div class="formula-box">
+                            <p><strong>Exemplo:</strong></p>
+                            <p>De quantas maneiras podemos organizar 3 livros em uma prateleira?</p>
+                            <p>P(3) = 3! = 6 maneiras</p>
+                        </div>
+                    </div>
+                    
+                    <!-- ARRANJO -->
+                    <div class="math-card">
+                        <h3>Arranjo</h3>
+                        <p>Número de maneiras de selecionar e organizar r elementos de um conjunto de n elementos distintos, onde a ordem importa.</p>
+                        <div class="formula-box">
+                            <p><strong>Fórmula:</strong></p>
+                            <div class="formula">A(n, r) = n! / (n - r)!</div>
+                        </div>
+                        <div class="formula-box">
+                            <p><strong>Exemplo:</strong></p>
+                            <p>Quantos códigos de 2 dígitos podemos formar com os números 1, 2, 3, 4?</p>
+                            <p>A(4, 2) = 4! / (4-2)! = 24 / 2 = 12 códigos</p>
+                        </div>
+                    </div>
+                    
+                    <!-- COMBINAÇÃO -->
+                    <div class="math-card">
+                        <h3>Combinação</h3>
+                        <p>Número de maneiras de selecionar r elementos de um conjunto de n elementos distintos, onde a ordem não importa.</p>
+                        <div class="formula-box">
+                            <p><strong>Fórmula:</strong></p>
+                            <div class="formula">C(n, r) = n! / [r! × (n - r)!]</div>
+                        </div>
+                        <div class="formula-box">
+                            <p><strong>Exemplo:</strong></p>
+                            <p>De quantas maneiras podemos escolher 2 pessoas de um grupo de 5?</p>
+                            <p>C(5, 2) = 5! / [2! × (5-2)!] = 120 / (2 × 6) = 10 maneiras</p>
+                        </div>
+                    </div>
+                    
+                    <!-- PROBABILIDADE -->
+                    <div class="math-card">
+                        <h3>Probabilidade</h3>
+                        <p>Medida da chance de um evento ocorrer, variando de 0 (impossível) a 1 (certo).</p>
+                        <div class="formula-box">
+                            <p><strong>Fórmula:</strong></p>
+                            <div class="formula">P(A) = Nº de casos favoráveis / Nº total de casos possíveis</div>
+                        </div>
+                        <div class="formula-box">
+                            <p><strong>Exemplo:</strong></p>
+                            <p>Qual a probabilidade de tirar um ás em um baralho de 52 cartas?</p>
+                            <p>P(ás) = 4 / 52 = 1/13 ≈ 0.077</p>
+                        </div>
+                    </div>
+                    
+                    <!-- JUROS SIMPLES -->
+                    <div class="math-card">
+                        <h3>Juros Simples</h3>
+                        <p>Juros calculados apenas sobre o valor inicial (capital).</p>
+                        <div class="formula-box">
+                            <p><strong>Fórmula:</strong></p>
+                            <div class="formula">J = C × i × t</div>
+                            <div class="formula">M = C + J = C × (1 + i × t)</div>
+                            <p>Onde: J = juros, C = capital, i = taxa, t = tempo</p>
+                        </div>
+                        <div class="formula-box">
+                            <p><strong>Exemplo:</strong></p>
+                            <p>Um empréstimo de R$ 1.000,00 a 5% ao mês por 3 meses:</p>
+                            <p>J = 1000 × 0,05 × 3 = R$ 150,00</p>
+                            <p>M = 1000 + 150 = R$ 1.150,00</p>
+                        </div>
+                    </div>
+                    
+                    <!-- JUROS COMPOSTOS -->
+                    <div class="math-card">
+                        <h3>Juros Compostos</h3>
+                        <p>Juros calculados sobre o capital inicial e também sobre os juros acumulados.</p>
+                        <div class="formula-box">
+                            <p><strong>Fórmula:</strong></p>
+                            <div class="formula">M = C × (1 + i)<sup>t</sup></div>
+                            <p>Onde: M = montante, C = capital, i = taxa, t = tempo</p>
+                        </div>
+                        <div class="formula-box">
+                            <p><strong>Exemplo:</strong></p>
+                            <p>Um investimento de R$ 1.000,00 a 5% ao mês por 3 meses:</p>
+                            <p>M = 1000 × (1 + 0,05)<sup>3</sup> = 1000 × 1,157625 = R$ 1.157,63</p>
+                        </div>
+                    </div>
+                    
+                    <!-- VARIÂNCIA -->
+                    <div class="math-card">
+                        <h3>Variância</h3>
+                        <p>Medidas de dispersão que indicam o quanto os valores de um conjunto de dados se afastam da média.</p>
+                        <div class="formula-box">
+                            <p><strong>Fórmulas:</strong></p>
+                            <div class="formula">Variância (σ²) = Σ(xᵢ - μ)² / N</div>
+                            <p>Onde: xᵢ = cada valor, μ = média, N = número de elementos</p>
+                        </div>
+                        <div class="formula-box">
+                            <p><strong>Exemplo:</strong></p>
+                            <p>Para o conjunto {2, 4, 6, 8, 10}:</p>
+                            <p>Média = 6, Variância = 8</p>
+                        </div>
+                    </div>
+                    <!-- DESVIO PADRÃO -->
+                     <div class="math-card">
+                        <h3>Desvio Padrão</h3>
+                        <p>Medidas de dispersão que indicam o quanto os valores de um conjunto de dados se afastam da média.</p>
+                        <div class="formula-box">
+                            <p><strong>Fórmulas:</strong></p>
+                            <div class="formula">Desvio Padrão (σ) = √Σ(xᵢ - μ)² / N</div>
+                            <p>Onde: xᵢ = cada valor, μ = média, N = número de elementos</p>
+                        </div>
+                        <div class="formula-box">
+                            <p><strong>Exemplo:</strong></p>
+                            <p>Para o conjunto {2, 4, 6, 8, 10}:</p>
+                            <p>Média = 6, Desvio Padrão = √8 ≈ 2,83</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+            <!-- ÁREA E VOLUME DE SÓLIDOS GEOMÉTRICOS -->
+            <div class="work-grid">
+                <div class="work-card super-fade-in">
+                    <div>
+                <img src ="../img/cavaleiro.gif"class="work-icon"></div>
+                    <h2>Área e Volume de Sólidos Geométricos</h2>
+                
+                
+                <div class="math-grid">
+                    <!-- CUBO -->
+                    <div class="math-card">
+                        <h3>Cubo</h3>
+                        <div class="formula-box">
+                            <p><strong>Área:</strong> A = 6 × a²</p>
+                            <p><strong>Volume:</strong> V = a³</p>
+                            <p>Onde: a = aresta</p>
+                        </div>
+                    </div>
+                    
+                    <!-- PARALELEPÍPEDO -->
+                    <div class="math-card">
+                        <h3>Paralelepípedo</h3>
+                        <div class="formula-box">
+                            <p><strong>Área:</strong> A = 2(ab + ac + bc)</p>
+                            <p><strong>Volume:</strong> V = a × b × c</p>
+                            <p>Onde: a, b, c = dimensões</p>
+                        </div>
+                    </div>
+                    
+                    <!-- CILINDRO -->
+                    <div class="math-card">
+                        <h3>Cilindro</h3>
+                        <div class="formula-box">
+                            <p><strong>Área lateral:</strong> A<sub>l</sub> = 2πrh</p>
+                            <p><strong>Área total:</strong> A<sub>t</sub> = 2πr(h + r)</p>
+                            <p><strong>Volume:</strong> V = πr²h</p>
+                            <p>Onde: r = raio, h = altura</p>
+                        </div>
+                    </div>
+                    
+                    <!-- ESFERA -->
+                    <div class="math-card">
+                        <h3>Esfera</h3>
+                        <div class="formula-box">
+                            <p><strong>Área:</strong> A = 4πr²</p>
+                            <p><strong>Volume:</strong> V = (4/3)πr³</p>
+                            <p>Onde: r = raio</p>
+                        </div>
+                    </div>
+                    
+                    <!-- CONE -->
+                    <div class="math-card">
+                        <h3>Cone</h3>
+                        <div class="formula-box">
+                            <p><strong>Área lateral:</strong> A<sub>l</sub> = πrg</p>
+                            <p><strong>Área total:</strong> A<sub>t</sub> = πr(g + r)</p>
+                            <p><strong>Volume:</strong> V = (1/3)πr²h</p>
+                            <p>Onde: r = raio, h = altura, g = geratriz</p>
+                        </div>
+                    </div>
+                    
+                    <!-- PIRÂMIDE -->
+                    <div class="math-card">
+                        <h3>Pirâmide</h3>
+                        <div class="formula-box">
+                            <p><strong>Área lateral:</strong> Soma das áreas das faces laterais</p>
+                            <p><strong>Área total:</strong> A<sub>l</sub> + A<sub>b</sub></p>
+                            <p><strong>Volume:</strong> V = (1/3) × A<sub>b</sub> × h</p>
+                            <p>Onde: A<sub>b</sub> = área da base, h = altura</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; © 2025 · Portal Acadêmico e Portfólio Pessoal</p>
+            <p>Entre em contato: <a href="mailto:bernardofreitas452@gmail.com">bernardofreitas452@gmail.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato & Votação - Dossiê Escolar</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../img/Minecraft.jpg">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="custom-images">Dossiê Escolar</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="curriculo.html">Currículo</a></li>
+                    <li><a href="linguagens.html">Linguagens</a></li>
+                    <li><a href="ciencias-da-natureza.html">Ciências da Natureza</a></li>
+                    <li><a href="matematica.html">Matemática</a></li>
+                    <li><a href="ciencias-humanas.html">Ciências Humanas</a></li>
+                    <li><a href="iot.html">IoT</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="contact-voting.html">Contato & Votação</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <h1>Contato & Votação</h1>
+            <div class="page-intro">
+                <p>Entre em contato para colaborações e ajude-me a identificar meus melhores trabalhos através do sistema de votação interativo.</p>
+            </div>
+
+            <div class="content-box accent super-fade-in">
+                <div class="box-header">
+                    <div>
+                    <img src="../img/gigante.gif"class="work-icon">
+                </div>
+                    <h2 class="box-title">Entre em Contato</h2>
+                </div>
+                <div class="box-content">
+                    <p>Envie sua mensagem e entrarei em contato o mais breve possível. Estou sempre aberto a novas ideias, colaborações e oportunidades.</p>
+                </div>
+                
+                <div class="contact-form-modern">
+                    <form id="contactForm">
+                        <div class="form-group-modern">
+                            <input type="text" id="name" name="name" class="form-control-modern" required>
+                            <label for="name"><h3>Nome Completo</h3></label>
+                        </div>
+                        
+                        <div class="form-group-modern">
+                            <input type="email" id="email" name="email" class="form-control-modern" required>
+                            <label for="email"><h3>E-mail</h3></label>
+                        </div>
+                        
+                        <div class="form-group-modern">
+                            <textarea id="message" name="message" class="form-control-modern" rows="5" required></textarea>
+                            <label for="message"><h3>Mensagem</h3></label>
+                        </div>
+                        
+                        <button type="submit" class="btn-super">
+                            <span>Enviar Mensagem</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="content-box accent super-fade-in">
+                <div class="box-header">
+                    <div>
+                    <img src="../img/goblin tramando.gif"class="work-icon">
+                </div>
+                    <h2 class="box-title">Sistema de Votação</h2>
+                    <span class="box-badge">Vote uma vez por dia</span>
+                </div>
+                <div class="box-content">
+                    <p>Ajude-me a identificar meu melhor trabalho! Vote no projeto que mais gostou e acompanhe o ranking em tempo real.</p>
+                </div>
+
+                <div class="voting-grid">
+                    <div class="work-card">
+                        <div>
+                    <img src="../img/mago.gif"class="work-icon">
+                </div>
+                        <span class="work-badge">IoT</span>
+                        <h3>Safe Gas</h3>
+                        <p>O projeto consiste em um sensor de gás que irá detectar a presença de gás de uma
+                            fonte e acionar um piezo que emite um som de alerta e um led que acende também
+                            para alertar.</p><br>
+                        <div class="card-actions-super">
+                            <button class="box-btn primary vote-btn" data-project="iot">Votar neste Projeto</button>
+                            <span class="vote-count" id="iot-votes">0 votos</span>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <div>
+                    <img src="../img/cavaleiro.gif"class="work-icon">
+                </div>
+                        <span class="work-badge">Ciências da Natureza</span>
+                        <h3>Eficácia dos Medicamentos e Saúde Populacional</h3>
+                        <p>Pesquisa científica sobre dados de eficácia de diferentes medicamentos
+                         utilizados para tratar infecções neurológicas, etc.</p><br>
+                        <div class="card-actions-super">
+                            <button class="box-btn primary vote-btn" data-project="quimica">Votar neste Projeto</button>
+                            <span class="vote-count" id="quimica-votes">0 votos</span>
+                        </div>
+                    </div>
+                
+
+                    <div class="work-card">
+                        <div>
+                    <img src="../img/barbaro.gif"class="work-icon">
+                        </div>
+                        <span class="work-badge">Linguagens</span>
+                        <h3>Revista Paralaxe</h3>
+                        <p>A Revista Paralaxe, foi organizada em quatro colunas, onde falamos
+                     sobre nós mesmos e experiências de vida, analisamos períodos literários, 
+                     trazendo diversos conteúdos produzidos com o objetivo de informar,
+                      refletir e inspirar.</p><br>
+                        <div class="card-actions-super">
+                            <button class="box-btn primary vote-btn" data-project="linguagens">Votar neste Projeto</button>
+                            <span class="vote-count" id="linguagens-votes">0 votos</span>
+                        </div>
+                    </div>
+                    <div class="work-card">
+                        <div>
+                    <img src="../img/principe.gif"class="work-icon">
+                </div>
+                        <span class="work-badge">Ciências Humanas</span>
+
+<h3>Realidades Que Se Cruzam</h3>
+<p>O trabalho compara as realidades sociais do Japão,
+    da África do Sul e da República Democrática do Congo,
+    mostrando fatores como etnia, gênero, sexualidade,
+    idade e escolaridade influenciam a vida das pessoas em cada país. </p><br>
+<div class="card-actions-super">
+    <button class="box-btn primary vote-btn" data-project="humanas">Votar neste Projeto</button>
+    <span class="vote-count" id="humanas-votes">0 votos</span>
+</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-box accent super-fade-in">
+                <div class="box-header">
+                    <div>
+                    <img src="../img/esqueleto.gif"class="work-icon">
+                </div>
+                    <h2 class="box-title">Ranking em Tempo Real</h2>
+                </div>
+                <div class="box-content">
+                    <p>Acompanhe a preferência dos visitantes e veja quais projetos estão se destacando!</p>
+                </div>
+                
+                <div class="ranking-container">
+                    <div class="ranking-list" id="ranking-list">
+                        </div>
+                </div>
+    </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; © 2025 · Portal Acadêmico e Portfólio Pessoal</p>
+            <p>Entre em contato: <a href="mailto:bernardofreitas452@gmail.com">bernardofreitas452@gmail.com</a></p>
+        </div>
+    </footer>
+
+    <script type="module">
+        // --- 1. Configuração do Firebase (do seu snippet) ---
+        // Eu adicionei as URLs do CDN para que os 'imports' funcionem direto no navegador
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+        // Adicionei as funções necessárias do Realtime Database (RTDB)
+        import { getDatabase, ref, onValue, runTransaction } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyDsMSbiU83zRR4UuXxKqHE2O10YeTrDdhQ",
+            authDomain: "portfolio-8c10d.firebaseapp.com",
+            databaseURL: "https://portfolio-8c10d-default-rtdb.firebaseio.com", // Essencial para o RTDB
+            projectId: "portfolio-8c10d",
+            storageBucket: "portfolio-8c10d.firebasestorage.app",
+            messagingSenderId: "237116693808",
+            appId: "1:237116693808:web:948a1b0dd019e0d7593cf5",
+            measurementId: "G-3PPYCQ68PS"
+        };
+
+        // Inicializar o Firebase e o Realtime Database
+        const app = initializeApp(firebaseConfig);
+        const database = getDatabase(app);
+        
+        // Referência para o local onde os votos serão salvos no banco
+        const votesRef = ref(database, 'votes');
+
+        // --- 2. Lógica da Aplicação (Adaptada para Firebase) ---
+
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            // NOVO: Ouvir mudanças nos votos em tempo real
+            onValue(votesRef, (snapshot) => {
+                const votes = snapshot.val();
+                
+                if (votes) {
+                    // Se houver dados de votos no Firebase, atualize a página
+                    updateVoteCounts(votes);
+                    updateRanking(votes);
+                } else {
+                    // Se não houver votos ainda (banco vazio), mostre 0
+                    const initialVotes = { iot: 0, quimica: 0, linguagens: 0, humanas: 0 };
+                    updateVoteCounts(initialVotes);
+                    updateRanking(initialVotes);
+                }
+            });
+
+            // Adicionar event listeners para os botões de votação
+            document.querySelectorAll('.vote-btn').forEach(button => {
+                button.addEventListener('click', function() {
+                    const project = this.getAttribute('data-project');
+                    voteForProject(project); // Esta função agora falará com o Firebase
+                });
+            });
+
+            // O formulário de contato continua funcionando com localStorage (como estava)
+            document.getElementById('contactForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const message = document.getElementById('message').value;
+                const contactData = { name, email, message, timestamp: new Date().toISOString() };
+                let contacts = JSON.parse(localStorage.getItem('contacts') || '[]');
+                contacts.push(contactData);
+                localStorage.setItem('contacts', JSON.stringify(contacts));
+                alert('Mensagem enviada com sucesso! Obrigado pelo contato.');
+                this.reset();
+            });
+
+            // Animações do formulário (sem alterações)
+            document.querySelectorAll('.form-control-modern').forEach(input => {
+                input.addEventListener('focus', function() { this.parentElement.classList.add('focused'); });
+                input.addEventListener('blur', function() {
+                    if (this.value === '') { this.parentElement.classList.remove('focused'); }
+                });
+            });
+        });
+
+        // FUNÇÃO DE VOTAÇÃO MODIFICADA
+        function voteForProject(project) {
+            // A verificação de "voto diário" ainda usa localStorage (correto, pois é por navegador)
+            const lastVoteDate = localStorage.getItem('lastVoteDate');
+            const today = new Date().toDateString();
+            
+            if (lastVoteDate === today) {
+                alert('Você já votou hoje. Volte amanhã para votar novamente!');
+                return;
+            }
+
+            const projectVoteRef = ref(database, 'votes/' + project);
+            
+            runTransaction(projectVoteRef, (currentVotes) => {
+                if (currentVotes === null) {
+                    return 1; // Se for o primeiro voto, define como 1
+                } else {
+                    return currentVotes + 1; // Incrementa o contador
+                }
+            }).then(() => {
+                // Se a transação for bem-sucedida, marque o usuário no localStorage
+                localStorage.setItem('lastVoteDate', today);
+
+                // Efeito visual de confirmação (sem alterações)
+                const button = document.querySelector(`[data-project="${project}"]`);
+                button.innerHTML = '✅ Voto Computado!';
+                button.disabled = true;
+                
+                setTimeout(() => {
+                    button.innerHTML = 'Votar neste Projeto';
+                    button.disabled = false;
+                }, 2000);
+
+            }).catch((error) => {
+                console.error("Erro na transação de voto: ", error);
+                alert("Ocorreu um erro ao computar seu voto. Tente novamente.");
+            });
+            
+            // IMPORTANTE: Não precisamos mais chamar updateVoteCounts/updateRanking aqui.
+            // O listener 'onValue' (lá em cima) fará isso automaticamente
+            // assim que o valor no banco de dados mudar!
+        }
+
+        // FUNÇÕES DE ATUALIZAÇÃO (com pequena melhoria)
+        // Essas funções agora são chamadas pelo listener 'onValue'
+        function updateVoteCounts(votes) {
+            // Adicionado '|| 0' para evitar erros se um projeto ainda não tiver votos
+            document.getElementById('iot-votes').textContent = (votes.iot || 0) + ' votos';
+            document.getElementById('quimica-votes').textContent = (votes.quimica || 0) + ' votos';
+            document.getElementById('linguagens-votes').textContent = (votes.linguagens || 0) + ' votos';
+            document.getElementById('humanas-votes').textContent = (votes.humanas || 0) + ' votos';
+        }
+
+        function updateRanking(votes) {
+            const projects = [
+                { name: 'Safe Gas', votes: votes.iot || 0, id: 'iot', icon: '🖥️' },
+                { name: 'Eficácia dos Medicamentos e Saúde Populacional', votes: votes.quimica || 0, id: 'quimica', icon: '🧪' },
+                { name: 'Revista Paralaxe', votes: votes.linguagens || 0, id: 'linguagens', icon: '👅' },
+                { name: 'Realidades Que Se Cruzam', votes: votes.humanas || 0, id: 'humanas', icon: '🧑🏽' }
+            ];
+
+            projects.sort((a, b) => b.votes - a.votes);
+
+            const rankingList = document.getElementById('ranking-list');
+            rankingList.innerHTML = '';
+            
+            // Pega o voto máximo para calcular a barra de progresso
+            const maxVotes = Math.max(...projects.map(p => p.votes));
+            projects.forEach((project, index) => {
+                const rankingItem = document.createElement('div');
+                rankingItem.className = 'ranking-item';
+                
+                if (index === 0) rankingItem.classList.add('ranking-gold');
+                else if (index === 1) rankingItem.classList.add('ranking-silver');
+                else if (index === 2) rankingItem.classList.add('ranking-bronze');
+                
+                // Evita divisão por zero se maxVotes for 0
+                const progressWidth = (maxVotes > 0) ? (project.votes / maxVotes) * 100 : 0;
+
+                rankingItem.innerHTML = `
+                    <div class="ranking-position">
+                        <span class="position-number">${index + 1}º</span>
+                    </div>
+                    <div class="ranking-icon">${project.icon}</div>
+                    <div class="ranking-info">
+                        <div class="ranking-name">${project.name}</div>
+                        <div class="ranking-votes">${project.votes} votos</div>
+                    </div>
+                    <div class="ranking-bar">
+                        <div class="ranking-progress" style="width: ${progressWidth}%"></div>
+                    </div>
+                `;
+                
+                rankingList.appendChild(rankingItem);
+            });
+        }
+    </script>
+
+    <style>
+        .contact-form-modern {
+            margin-top: 2rem;
+        }
+
+        .form-group-modern {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .form-control-modern {
+            width: 100%;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            color: var(--text-primary);
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .form-control-modern:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.2);
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .form-group-modern label {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            color: rgba(255, 255, 255, 0.6);
+            transition: all 0.3s ease;
+            pointer-events: none;
+            background: var(--bg-primary);
+            padding: 0 0.5rem;
+        }
+
+        .form-group-modern.focused label,
+        .form-control-modern:not(:placeholder-shown) + label {
+            top: -0.5rem;
+            left: 0.8rem;
+            font-size: 0.8rem;
+            color: var(--accent);
+        }
+
+        .voting-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .vote-count {
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .ranking-container {
+            margin-top: 1.5rem;
+        }
+
+        .ranking-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .ranking-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .ranking-item:hover {
+            transform: translateY(-2px);
+            border-color: rgba(168, 85, 247, 0.3);
+        }
+
+        .ranking-gold {
+            border-left: 4px solid #FFD700;
+            background: linear-gradient(90deg, rgba(255, 215, 0, 0.1), transparent);
+        }
+
+        .ranking-silver {
+            border-left: 4px solid #C0C0C0;
+            background: linear-gradient(90deg, rgba(192, 192, 192, 0.1), transparent);
+        }
+
+        .ranking-bronze {
+            border-left: 4px solid #CD7F32;
+            background: linear-gradient(90deg, rgba(205, 127, 50, 0.1), transparent);
+        }
+
+        .ranking-position {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 50px;
+        }
+
+        .position-number {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent), var(--accent-glow));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .ranking-icon {
+            font-size: 1.5rem;
+        }
+
+        .ranking-info {
+            flex: 1;
+        }
+
+        .ranking-name {
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.25rem;
+        }
+
+        .ranking-votes {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .ranking-bar {
+            width: 100px;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .ranking-progress {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent), var(--accent-glow));
+            border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+
+        @media (max-width: 768px) {
+            .voting-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .ranking-item {
+                flex-direction: column;
+                text-align: center;
+                gap: 0.75rem;
+            }
+            
+            .ranking-bar {
+                width: 100%;
+            }
+        }
+    </style>
+</body>
+</html>

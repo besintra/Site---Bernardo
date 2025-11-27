@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT - Dossiê Escolar</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../img/Minecraft.jpg">
+    <style>
+        :root {
+            --primary-color: #2900df;
+            --primary-light: #7455ff;
+            --primary-dark: #000000;
+            --accent-color: #00aaa2;
+            --gradient: linear-gradient(135deg, #2900df, #00aaa2);
+        }
+    .section-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 3rem;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+        }
+        
+        .hobby-section {
+            margin: 5rem 0;
+        }
+
+        .masonry-item {
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .masonry-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+        }
+        
+        .masonry-item:nth-child(3n+1) {
+            grid-row: span 2;
+        }
+        
+        .masonry-item:nth-child(5n+2) {
+            grid-row: span 3;
+        }
+        
+        .masonry-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 4px;
+            background: var(--gradient);
+            margin: 1rem auto 0;
+            border-radius: 10px;
+        }
+        
+        .hobby-timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .timeline-item {
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+        }
+        
+        .timeline-year {
+            background: var(--gradient);
+            color: rgb(255, 255, 255);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: 700;
+            min-width: 80px;
+            text-align: center;
+        }
+        
+        .timeline-content {
+            flex: 1;
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            
+            .timeline-item {
+                flex-direction: column;
+            }
+            
+            .timeline-year {
+                align-self: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="custom-images">Dossiê Escolar</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="curriculo.html">Currículo</a></li>
+                    <li><a href="linguagens.html">Linguagens</a></li>
+                    <li><a href="ciencias-da-natureza.html">Ciências da Natureza</a></li>
+                    <li><a href="matematica.html">Matemática</a></li>
+                    <li><a href="ciencias-humanas.html">Ciências Humanas</a></li>
+                    <li><a href="iot.html">IoT</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="contact-voting.html">Contato & Votação</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <h1>Internet das Coisas</h1>
+            <div class="page-intro">
+                <p>Do conceito à implementação: meus projetos mais avançados em IoT, onde criatividade técnica encontra soluções para problemas reais.</p>
+            </div>
+            
+            <div class="work-grid">
+                <div class="work-card super-fade-in">
+                    <div>
+                <img src ="../img/principe.gif"class="work-icon"></div>
+                    <span class="work-badge">Projeto IOT - 3º Bimestre</span>
+                    <h3>Safe Gas</h3>
+                    <p>O projeto consiste em um sensor de gás que irá detectar a presença de gás de uma
+fonte e acionar um piezo que emite um som de alerta e um led que acende também
+para alertar. O objetivo do sistema é para que, caso a pessoa esqueça um fogão ligado
+ou ocorra outra forma de vazamento de gás em algum local fechado, o sensor emita
+o som e a luz do led para alertar a pessoa, e salvar a vida dela de uma possível
+intoxicação ou explosão.
+</p>
+                    <div class="card-features">
+                        <div class="card-feature">Arduino UNO</div>
+                        <div class="card-feature">Protoboard</div>
+                        <div class="card-feature">Sensor de gás MQ-3</div>
+                        <div class="card-feature">Buzzer</div>
+                        <div class="card-feature">Led amarelo</div>
+                        <div class="card-feature">3 resistores</div>
+                        <div class="card-feature">Jumpers machos</div>
+                    </div>
+                    <div class="card-actions-super">
+                        <a href="../trab/SafeGas.pdf" class="box-btn primary">Abrir Projeto</a>
+                    </div>
+                    
+                </div>
+            
+                        <div class="hobby-section">
+                <div class="masonry-grid">
+                    <div class="masonry-item super-fade-in">
+                        <img src="../img/Safe Gas.png" alt="Corinthians" class="masonry-image">
+                    </div>            
+                            </div>
+                        </div>
+                        
+                        <div class="hobby-section">
+                <div class="masonry-grid">
+                    <div class="masonry-item super-fade-in">
+                        <img src="../img/Stove Scape.png" alt="Vídeo" class="masonry-image">
+                    </div>            
+                            </div>
+                        </div>
+                        
+
+            <div class="work-grid">
+                <div class="work-card super-fade-in">
+                    <div>
+                <img src ="../img/tronco.gif"class="work-icon">
+                    </div>
+                    <span class="work-badge">Projeto IOT - 3º Bimestre</span>
+                    <h3>Stove Scape</h3>
+                    <p>O projeto consiste em montar um circuito integrado que utiliza um sensor de gás MQ3 que, ao detectar a presença de gás escapando do fogão (no protótipo será apenas
+uma simulação), ele aciona um motor CC que irá fechar a válvula do mecanismo
+integrado com o micro-servo, impedindo e controlando a saída do gás.</p>
+                    <div class="card-features">
+                        <div class="card-feature">Arduino UNO</div>
+                        <div class="card-feature">Protoboard</div>
+                        <div class="card-feature">Jumpers macho</div>
+                        <div class="card-feature">2 resistores</div>
+                        <div class="card-feature">Transistor</div>
+                        <div class="card-feature">Motor CC</div>
+                        <div class="card-feature">Micro-servo</div>
+                        <div class="card-feature">Válvula</div>
+                        <div class="card-feature">Sensor de gás MQ-3</div>                    
+                    </div>
+                    <div class="card-actions-super">
+                        <a href="../trab/Stove Scape.pdf" class="box-btn primary">Abrir Projeto</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+<br>
+<br>
+            <div class="hobby-section">
+                <h2 class="section-title">Linha do Tempo</h2>
+                <div class="hobby-timeline">
+                    <div class="timeline-item super-fade-in">
+                        <div class="timeline-year">2023</div>
+                        <div class="timeline-content">
+                            <h3>Início do Curso Técnico IOT</h3>
+                            <p>Entrei no Senac, e iniciei o curso técnico de IOT, gostei bastante,
+                                 fiz muitos amigos e aprendi muitas coisas Arduíno, e Hardware, como
+                                  montagem e desmontagem de pc. Também trabalhamos bastante com pacote office.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item super-fade-in">
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-content">
+                            <h3>Primeiro projeto de Redes de Computadores</h3>
+                            <p>Descobri as redes de computadores,  sistemas de dispositivos
+                                 interconectados que compartilham dados e recursos por meio
+                                  de protocolos de comunicação. Realizei meu primeiro projeto
+                                   IOT, de casa inteligente, juntamente com meus colegas, foi
+                                    muito divertido, uma experiência única e conhecimentos que
+                                     levarei para vida toda.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item super-fade-in">
+                        <div class="timeline-year">2025</div>
+                        <div class="timeline-content">
+                            <h3>Descoberta da Programação</h3>
+                            <p>Descobri a programação, foi incrível, também realizei projetos muito
+                                 legais, criei meu próprio site, e descobi um verdadeiro hobby, que pode ser
+                                 um trabalho, free lancer, etc. Um ano de muita aprendizagem e o meu
+                                  último no Ensino Médio, do qual nunca me esquecerei.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="skills-section">
+                <h2 style="text-align: center; margin-bottom: 3rem;">Habilidades Técnicas</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Programação</h4>
+                        <ul class="skill-list">
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>CSS e HTML</li>
+                            <li>C++</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>IoT</h4>
+                        <ul class="skill-list">
+                            <li>Arduino e ESP32</li>
+                            <li>Prototipos Eletrônicos</li>
+                            <li>Protocolos MQTT</li>
+                            <li>Sensores</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Ferramentas</h4>
+                        <ul class="skill-list">
+                            <li>Visual Studio Code</li>
+                            <li>Portugol Webstudio</li>
+                            <li>Autodesk Tinkercad</li>
+                            <li>Cisco Packet Tracer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; © 2025 · Portal Acadêmico e Portfólio Pessoal</p>
+            <p>Entre em contato: <a href="mailto:bernardofreitas452@gmail.com">bernardofreitas452@gmail.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
